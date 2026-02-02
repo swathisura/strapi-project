@@ -10,6 +10,7 @@ This is a sample Strapi project created as part of TASK-1.
 
 ---
 
+<<<<<<< HEAD
 ## Steps Followed
 
 1. **Installed Node.js and npm** on local machine.  
@@ -70,3 +71,10 @@ Admin Panel: http://localhost:1337/admin
 
 Task completed by Swathi on Day 1.
 
+=======
+<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+Temp change to create PR
+>>>>>>> 5337104 (Temp commit to enable PR)
+Temp change to enable PR
+Temp change to enable PR
+Temp change to enable PR
