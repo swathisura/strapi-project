@@ -1,61 +1,72 @@
-# 🚀 Getting started with Strapi
+# Strapi Project
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+This is a sample Strapi project created as part of TASK-1.
 
-### `develop`
+## Project Overview
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
-
-```
-npm run develop
-# or
-yarn develop
-```
-
-### `start`
-
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
-
-```
-npm run start
-# or
-yarn start
-```
-
-### `build`
-
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
-
-```
-npm run build
-# or
-yarn build
-```
-
-## ⚙️ Deployment
-
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
-
-```
-yarn strapi deploy
-```
-
-## 📚 Learn more
-
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
+- Built using **Strapi v4**  
+- Local development using **Node.js & npm**  
+- Admin Panel for creating content types and managing content
 
 ---
 
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+## Steps Followed
+
+1. **Installed Node.js and npm** on local machine.  
+2. **Created Strapi project** using:
+
+`bash
+npx create-strapi-app my-project
+
+3. Ran Strapi locally:
+   cd my-project
+   npm run develop
+   Admin Panel available at http://localhost:1337/admin
+
+4. Created Admin user
+
+  Created Sample Content Type:
+
+  Collection Type: Article
+
+Fields:
+
+  title → Text
+ 
+  description → Rich Text
+
+  publishedDate → Date
+
+5. Added Sample Entry:
+
+title	description	publishedDate
+My First Article	This is a test content	2026-02-02
+
+6. Pushed project to GitHub:
+
+  git init
+  git add .
+  git commit -m "Initial Strapi project setup"
+  git branch -M main
+  git remote add origin https://github.com/swathisura/strapi-project.git
+ git push -u origin main
+
+## Useful Commands
+
+Start Strapi in watch mode: npm run develop
+
+Start Strapi without watch mode: npm run start
+
+Build Admin Panel: npm run build
+
+Display available commands: npm run strapi
+
+##Links
+
+GitHub Repository: https://github.com/swathisura/strapi-project
+
+Admin Panel: http://localhost:1337/admin
+
+
+Task completed by Swathi on Day 1.
+
