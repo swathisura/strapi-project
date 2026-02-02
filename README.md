@@ -66,3 +66,7 @@ Display available commands: npm run strapi
 GitHub Repository: https://github.com/swathisura/strapi-project
 
 Admin Panel: http://localhost:1337/admin
+
+
+Task completed by Swathi on Day 1.
+
